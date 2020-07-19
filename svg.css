@@ -17,7 +17,7 @@ body *{
   margin: 0;
 }
 .avatar {
-  background-image: url("/images/IMG_4980.JPG");
+  background-image: url("images/IMG_4980.JPG");
   width: 200px;
   margin: 0 auto;
   height: 200px;
@@ -75,7 +75,7 @@ body *{
   left: 0;
   width: 100%;
   height: 150px;
-  background: url("/images/303678-ffffff.svg");
+  background: url("images/303678-ffffff.svg");
   background-size: cover;
   background-position: center;
   z-index: 100;
