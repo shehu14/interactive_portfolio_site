@@ -2,8 +2,8 @@
 var i = 0;
 //needed torun after 1 s..cosofpage animation
 setTimeout(move,1000)
-function move() {
-  if (i == 0) {
+function move(); {
+  if (i === 0) {
     i = 1;
     //get dom elements
     var webdevelement = document.querySelector(".webdevbar");
