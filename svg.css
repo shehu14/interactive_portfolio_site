@@ -4,9 +4,11 @@
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
+/*hidding scrollbars*/
 body *{
   overflow: hidden;
 }
+/* styling svg backround*/
 .svgbg {
   position: relative;
   background-color: #0f0f0f;
@@ -16,6 +18,7 @@ body *{
   left: 0;
   margin: 0;
 }
+/* avatar styling to fit screen*/
 .avatar {
   background-image: url("images/IMG_4980.JPG");
   width: 200px;
@@ -26,6 +29,7 @@ body *{
   background-size: cover;
   background-position: center;
 }
+/* centering texts*/
 .svgitems {
   text-align: center;
   width: 80%;
@@ -36,6 +40,7 @@ body *{
 
   z-index: 6;
 }
+/*styling the menu bar on desktop*/
 .topnav {
   position: absolute;
   top: 3px;
@@ -48,6 +53,7 @@ body *{
 
   animation: fadein 4s ease;
 }
+/* desktop menu links*/
 .topnav a {
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -57,17 +63,21 @@ body *{
 .topnav a:hover {
   color: rgb(243, 86, 38);
 }
+/* logo styles*/
 .topnav img {
   margin-top: -15px;
   margin-right: 40px;
 }
+/* clean up*/
 .topnav {
   margin-bottom: 0;
 }
+/*paragraph font style*/
 .svgitems p {
   font-size: 1.3em;
   line-height: 1.4em;
 }
+/* adding wave svg with pseudo selector*/
 .svgbg::before {
   content: "";
   position: absolute;
@@ -87,12 +97,14 @@ h3 {
   font-size: 2.5em;
   overflow: hidden;
 }
+/*animating span with pseudo selector*/
 .span:before {
   content: "";
   color: rgb(243, 86, 38);
   animation: changetext infinite 8s;
   font-size: 1em;
 }
+/* portfolio styling start*/
 .viewwork {
   color: aliceblue;
   text-align: center;
@@ -132,6 +144,7 @@ h3 {
   margin: 10px;
   color: rgb(243, 86, 38);
 }
+/* footer styling end*/
 .drawer{
   display: flex;
   flex-direction: column;
@@ -142,6 +155,7 @@ text-align: center;
 height: 100vh;
 
 }
+/*drawer styling star*/
 .drawer i{
 margin-right: 10px;
 
@@ -158,6 +172,7 @@ margin-right: 10px;
   margin-top: 25px;
   border-radius: 50%;
 }
+
 .drawer ,.personal{
   margin: 0 auto;
 }
@@ -167,6 +182,8 @@ margin-right: 10px;
   padding: 5px;
   border-radius: 10px;
 }
+/* drawer styling end*/
+/* main cv styling start*/
 .sectionprofile{
   text-align: left;
   line-height: 20px;
@@ -232,6 +249,7 @@ margin-right: 10px;
   opacity: 0.99;
   z-index: 2000;
 }
+/*to be added in java*/
 .slidein {
   animation: slide 0.7s ease-in;
 }
@@ -269,6 +287,7 @@ margin-right: 10px;
   top: 3px;
   color: white;
 }
+/*centering links*/
 .flexlinks {
   display: flex;
   flex-direction: column;
@@ -299,6 +318,7 @@ margin-right: 10px;
   margin-top: 10px;
   animation: updown 1s ease-in-out infinite;
 }
+/*centering text in particlecanvas*/
 #particles-js {
   width: 100%;
   height: 100vh;
@@ -316,6 +336,7 @@ margin-right: 10px;
   position: absolute;
   height: 100vh;
 }
+/*styling contact form*/
 .input,.message{
   background-color: transparent;
   color: white;
@@ -362,6 +383,7 @@ button{
   width: 100vw;
 }
 /*FOR MY SITE THIS IS WHERE THE APPLICATION STARTS TO BREAK AT 800PX SCREENS AND LOWER*/
+/*resizing to fit smaller screens*/
 @media screen and (max-width: 800px) {
   .avatar {
     width: 250px;
