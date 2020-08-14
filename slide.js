@@ -10,7 +10,7 @@ hamburger.addEventListener("click", () => {
 const avatar = document.getElementById("avatar");
     avatar.addEventListener("mouseover", () => {
     
-      avatar.style.backgroundImage = "url('images/logo.png')";
+      avatar.style.backgroundImage = "url('images/IMG_5778.JPG')";
     });
     //resetting it back
     avatar.addEventListener("mouseout", () => {
